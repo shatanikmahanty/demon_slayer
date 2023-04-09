@@ -9,12 +9,12 @@ class DemonsListPage extends StatelessWidget {
   Widget build(BuildContext context) => Column(
         children: [
           Text(
-            'Choose your slayer',
+            'Demon World Awaits!',
             style: Theme.of(context).textTheme.headlineLarge,
           ),
           const Expanded(
             child: CharacterGrid(
-              characters: slayers,
+              characters: demons,
             ),
           ),
         ],

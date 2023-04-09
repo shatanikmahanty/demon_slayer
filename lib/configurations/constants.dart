@@ -31,8 +31,22 @@ const slayers = <Character>[
     id: 'kyujoru',
     firstName: 'Kyujoru',
     lastName: 'Rengoku',
-    swordStyle: 'Fire',
+    swordStyle: 'Flame',
     primaryColor: Color(0xffff5349),
+  ),
+  Character(
+    id: 'tengen',
+    firstName: 'Tengen',
+    lastName: 'Uzui',
+    swordStyle: 'Sound',
+    primaryColor: Color(0xff344a54),
+  ),
+  Character(
+    id: 'gyomei',
+    firstName: 'Gyomei',
+    lastName: 'Himejima',
+    swordStyle: 'Stone',
+    primaryColor: Colors.grey,
   ),
   Character(
     id: 'tanjiro',
@@ -54,5 +68,50 @@ const slayers = <Character>[
     lastName: 'Hashibara',
     swordStyle: 'Beast',
     primaryColor: Colors.blueGrey,
+  ),
+];
+
+const demons = <Character>[
+  Character(
+    id: 'muzan',
+    firstName: 'Muzan',
+    lastName: 'Kibutsuji',
+    swordStyle: 'Demon King',
+    primaryColor: Color(0xff383841),
+  ),
+  Character(
+    id: 'nezuko',
+    firstName: 'Nezuko',
+    lastName: 'Kamado',
+    swordStyle: 'Pyrokinesis',
+    primaryColor: Color(0xffe5aeae),
+  ),
+  Character(
+    id: 'tamayo',
+    firstName: 'Tamayo',
+    lastName: '____',
+    swordStyle: 'Spell Caster',
+    primaryColor: Color(0xff171620),
+  ),
+  Character(
+    id: 'yushiro',
+    firstName: 'Yushiro',
+    lastName: 'Yamamoto',
+    swordStyle: 'Invisibility',
+    primaryColor: Color(0xffbfd7b1),
+  ),
+  Character(
+    id: 'daki',
+    firstName: 'Daki',
+    lastName: '____',
+    swordStyle: 'Shapeshifter',
+    primaryColor: Color(0xffc2d55f),
+  ),
+  Character(
+    id: 'gyutaro',
+    firstName: 'Gyutaro',
+    lastName: '____',
+    swordStyle: 'Blood Sickels',
+    primaryColor: Color(0xff566a7f),
   ),
 ];

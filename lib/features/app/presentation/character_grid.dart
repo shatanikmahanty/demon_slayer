@@ -11,9 +11,11 @@ class CharacterGrid extends StatelessWidget {
   Widget build(BuildContext context) => GridView.builder(
     shrinkWrap: true,
         physics: const BouncingScrollPhysics(),
-        padding: const EdgeInsets.symmetric(
-          vertical: kPadding * 5,
-          horizontal: kPadding,
+        padding: const EdgeInsets.only(
+          top: kPadding,
+          bottom: kPadding * 5,
+          left: kPadding,
+          right: kPadding,
         ),
         gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
           crossAxisCount: 2,
