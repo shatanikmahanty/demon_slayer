@@ -14,6 +14,20 @@ const slayers = <Character>[
     primaryColor: Color(0xff22c2f3),
   ),
   Character(
+    id: 'mitsuri',
+    firstName: 'Mitsuri',
+    lastName: 'Kanroji',
+    swordStyle: 'Love',
+    primaryColor: Colors.pinkAccent,
+  ),
+  Character(
+    id: 'shinobu',
+    firstName: 'Shinobu',
+    lastName: 'Kocho',
+    swordStyle: 'Insect',
+    primaryColor: Color(0xff6e4cb6),
+  ),
+  Character(
     id: 'kyujoru',
     firstName: 'Kyujoru',
     lastName: 'Rengoku',

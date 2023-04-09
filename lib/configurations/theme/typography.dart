@@ -9,8 +9,8 @@ class AppTextStyle {
         letterSpacing: -.25,
       );
   static TextStyle get displayMedium => const TextStyle(
-        fontWeight: FontWeight.w500,
-        fontSize: 45,
+        fontWeight: FontWeight.bold,
+        fontSize: 52,
         height: 1.16,
       );
   static TextStyle get displaySmall => const TextStyle(

@@ -1,5 +1,6 @@
 import 'package:demon_slayer/configurations/configurations.dart';
 import 'package:demon_slayer/ds_icons.dart';
+import 'package:demon_slayer/features/app/presentation/ds_appbar.dart';
 import 'package:flutter/material.dart';
 
 export 'slayers/slayer_list_page.dart';
@@ -14,13 +15,7 @@ class HomePage extends StatelessWidget {
           SlayersListRoute(),
           DemonsListRoute(),
         ],
-        appBarBuilder: (context, tabsRouter) => AppBar(
-          title: Image.asset(
-            'assets/images/animated_icon.gif',
-            height: 80,
-          ),
-          centerTitle: true,
-        ),
+        appBarBuilder: (context, tabsRouter) => const DSAppBar(),
         bottomNavigationBuilder: (context, tabsRouter) => SafeArea(
           bottom: true,
           child: SizedBox(

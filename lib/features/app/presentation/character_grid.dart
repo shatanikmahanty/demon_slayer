@@ -9,6 +9,7 @@ class CharacterGrid extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => GridView.builder(
+    shrinkWrap: true,
         physics: const BouncingScrollPhysics(),
         padding: const EdgeInsets.symmetric(
           vertical: kPadding * 5,
